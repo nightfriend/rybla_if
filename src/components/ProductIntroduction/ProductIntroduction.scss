@@ -1,0 +1,48 @@
+.product-introduction {
+  width: 100%;
+
+  .recommendation-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &.reversed {
+      flex-direction: row-reverse;
+    }
+
+    &__text-container {
+      display: flex;
+      flex-direction: column;
+      width: 460px;
+    }
+
+    &__title {
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 76px;
+    }
+
+    &__subtitle {
+      font-weight: 400;
+      font-size: 50px;
+
+      display: flex;
+      align-items: center;
+
+      margin: 35px 0;
+
+      > span {
+        margin-left: 20px;
+      }
+
+      .reversed {
+        flex-direction: row-reverse;
+      }
+    }
+
+    &__description {
+      font-weight: 300;
+      font-size: 25px;
+    }
+  }
+}

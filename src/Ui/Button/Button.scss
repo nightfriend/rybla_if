@@ -1,0 +1,19 @@
+button {
+  width: 200px;
+  height: 63px;
+
+  border: none;
+  border-radius: 60px;
+
+  cursor: pointer;
+
+  &.primary-button {
+    background: #FF8F1E;
+    color: rgba(0, 0, 0, 0.42);
+  }
+
+  &.secondary-button {
+    background: #5d3333;
+    color: #ffffff;
+  }
+}

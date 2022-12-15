@@ -1,0 +1,47 @@
+.order {
+  position: relative;
+  width: 360px;
+  min-height: 126px;
+  background: #FFFFFF;
+  border: 1px solid #B5B5B5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  margin-bottom: 15px;
+
+  display: flex;
+  align-items: center;
+
+  &__image {
+    width: 130px;
+    height: 93px;
+
+    margin-left: 10px;
+  }
+
+  &__information {
+    height: 70px;
+    margin-left: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  &__price {
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  &__close {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+
+    transform: translate(-90%, -50%);
+  }
+}
